@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Atom Village</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="resources">
+            <div class="resource">
+                <img src="assets/energy.png" alt="Энергия">
+                <span id="energy">0</span>
+            </div>
+            <div class="resource">
+                <img src="assets/materials.png" alt="Материалы">
+                <span id="materials">0</span>
+            </div>
+        </div>
+        
+        <div id="buildings-grid"></div>
+        
+        <div id="shop">
+            <h2>Магазин</h2>
+            <div id="shop-items"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
